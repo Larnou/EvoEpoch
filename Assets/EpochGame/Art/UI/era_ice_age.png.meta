@@ -1,0 +1,2108 @@
+fileFormatVersion: 2
+guid: 3917d2f7207a6604da0a9e10288f6de8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8766416019610960412
+    second: era_ice_age_0
+  - first:
+      213: -1052342252629185678
+    second: era_ice_age_1
+  - first:
+      213: 2388809401846148441
+    second: era_ice_age_2
+  - first:
+      213: -5586766660098861537
+    second: era_ice_age_3
+  - first:
+      213: -2224612832417423505
+    second: era_ice_age_4
+  - first:
+      213: -6242185797715625176
+    second: era_ice_age_5
+  - first:
+      213: 1998524540789775337
+    second: era_ice_age_6
+  - first:
+      213: -16854408127659869
+    second: era_ice_age_7
+  - first:
+      213: -8326475249223161570
+    second: era_ice_age_8
+  - first:
+      213: 8084318337892287433
+    second: era_ice_age_9
+  - first:
+      213: -482629957396321801
+    second: era_ice_age_10
+  - first:
+      213: 5497305204076710054
+    second: era_ice_age_11
+  - first:
+      213: 4364377541996174275
+    second: era_ice_age_12
+  - first:
+      213: 3228680287085192175
+    second: era_ice_age_13
+  - first:
+      213: 5730530150169266580
+    second: era_ice_age_14
+  - first:
+      213: -1133074934982573279
+    second: era_ice_age_15
+  - first:
+      213: -2816889702151466880
+    second: era_ice_age_16
+  - first:
+      213: -3741641521140735743
+    second: era_ice_age_17
+  - first:
+      213: 7325408915243355295
+    second: era_ice_age_18
+  - first:
+      213: 5195203311082422766
+    second: era_ice_age_19
+  - first:
+      213: -1677710679919177377
+    second: era_ice_age_20
+  - first:
+      213: -7151382924351568169
+    second: era_ice_age_21
+  - first:
+      213: -7407175808541880055
+    second: era_ice_age_22
+  - first:
+      213: -2407746835731035500
+    second: era_ice_age_23
+  - first:
+      213: 6106102511426558826
+    second: era_ice_age_24
+  - first:
+      213: 6685524387091230338
+    second: era_ice_age_25
+  - first:
+      213: -2990711265886160
+    second: era_ice_age_26
+  - first:
+      213: 1037436265042484481
+    second: era_ice_age_27
+  - first:
+      213: 7744265087467272735
+    second: era_ice_age_28
+  - first:
+      213: 2942522088805507238
+    second: era_ice_age_29
+  - first:
+      213: 7728742673662966122
+    second: era_ice_age_30
+  - first:
+      213: 3873835549871990411
+    second: era_ice_age_31
+  - first:
+      213: -1630081600315850195
+    second: era_ice_age_32
+  - first:
+      213: 7229145105336221800
+    second: era_ice_age_33
+  - first:
+      213: -4717229701939561931
+    second: era_ice_age_34
+  - first:
+      213: -2191400681763976266
+    second: era_ice_age_35
+  - first:
+      213: -6905931866624022141
+    second: era_ice_age_36
+  - first:
+      213: -8302980414791648625
+    second: era_ice_age_37
+  - first:
+      213: -8355770736049959744
+    second: era_ice_age_38
+  - first:
+      213: -7027726190092304251
+    second: era_ice_age_39
+  - first:
+      213: -2378437782684227255
+    second: era_ice_age_40
+  - first:
+      213: 8501616691843132420
+    second: era_ice_age_41
+  - first:
+      213: -3981301852188650830
+    second: era_ice_age_42
+  - first:
+      213: 2774499998005586975
+    second: era_ice_age_43
+  - first:
+      213: -2770553477007966640
+    second: era_ice_age_44
+  - first:
+      213: 7357662415157887275
+    second: era_ice_age_45
+  - first:
+      213: -6886973730668686183
+    second: era_ice_age_46
+  - first:
+      213: 5287481047524812857
+    second: era_ice_age_47
+  - first:
+      213: -4644654784834906749
+    second: era_ice_age_48
+  - first:
+      213: -5199500010139639111
+    second: era_ice_age_49
+  - first:
+      213: 2030287537955903031
+    second: era_ice_age_50
+  - first:
+      213: 2435264851236155337
+    second: era_ice_age_51
+  - first:
+      213: 5243002253687712520
+    second: era_ice_age_52
+  - first:
+      213: -3073191287914653493
+    second: era_ice_age_53
+  - first:
+      213: -2031297938019248223
+    second: era_ice_age_54
+  - first:
+      213: -9023488919931038058
+    second: era_ice_age_55
+  - first:
+      213: -56719898803165154
+    second: era_ice_age_56
+  - first:
+      213: -3459956548254502580
+    second: era_ice_age_57
+  - first:
+      213: -4095349923343922175
+    second: era_ice_age_58
+  - first:
+      213: 1902081679367829332
+    second: era_ice_age_59
+  - first:
+      213: -344599530071626457
+    second: era_ice_age_60
+  - first:
+      213: 4375546556655297206
+    second: era_ice_age_61
+  - first:
+      213: 7316316282857190270
+    second: era_ice_age_62
+  - first:
+      213: -594380166292460001
+    second: era_ice_age_63
+  - first:
+      213: 8872146916508607692
+    second: era_ice_age_64
+  - first:
+      213: -6295312245797885807
+    second: era_ice_age_65
+  - first:
+      213: -7003936219913659508
+    second: era_ice_age_66
+  - first:
+      213: -4567185938128549009
+    second: era_ice_age_67
+  - first:
+      213: 4222636009431475998
+    second: era_ice_age_68
+  - first:
+      213: 2370289887298634667
+    second: era_ice_age_69
+  - first:
+      213: 8385683599998649155
+    second: era_ice_age_70
+  - first:
+      213: 3668261650450570739
+    second: era_ice_age_71
+  - first:
+      213: 2809866362557084585
+    second: era_ice_age_72
+  - first:
+      213: 4930980298348418837
+    second: era_ice_age_73
+  - first:
+      213: 8650932623811809702
+    second: era_ice_age_74
+  - first:
+      213: -2631021120208176182
+    second: era_ice_age_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: era_ice_age_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 297
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed7bcd931f675680800000000000000
+      internalID: -8766416019610960412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 317
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b27e9fb445561f0800000000000000
+      internalID: -1052342252629185678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 301
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d27299e71c62120800000000000000
+      internalID: 2388809401846148441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 320
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16dfc59251d772b0800000000000000
+      internalID: -5586766660098861537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 320
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fdbf85a669021e0800000000000000
+      internalID: -2224612832417423505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 310
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bfb29e61d4f59a0800000000000000
+      internalID: -6242185797715625176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 314
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebdca03b7f2cbb10800000000000000
+      internalID: 1998524540789775337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_7
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 259
+        width: 204
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0c6ae410f14cff0800000000000000
+      internalID: -16854408127659869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 311
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19a8fa50ea627c80800000000000000
+      internalID: -8326475249223161570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1011
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c30f3d12b4413070800000000000000
+      internalID: 8084318337892287433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_10
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 299
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f92e6f5c9a5d49f0800000000000000
+      internalID: -482629957396321801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_11
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 271
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a806e605f95a4c40800000000000000
+      internalID: 5497305204076710054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_12
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 303
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbdf504042619c30800000000000000
+      internalID: 4364377541996174275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 292
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3e4056d939ecc20800000000000000
+      internalID: 3228680287085192175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_14
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 280
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49941875fcee68f40800000000000000
+      internalID: 5730530150169266580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 279
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123077499528640f0800000000000000
+      internalID: -1133074934982573279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_16
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 291
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805ecb8db568e8d0800000000000000
+      internalID: -2816889702151466880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_17
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 273
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101ed8f4cd4031cc0800000000000000
+      internalID: -3741641521140735743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 293
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c4f83c89419a560800000000000000
+      internalID: 7325408915243355295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_19
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 294
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee14005d2e1191840800000000000000
+      internalID: 5195203311082422766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 286
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51d987860397b8e0800000000000000
+      internalID: -1677710679919177377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d60b35be1f21cc90800000000000000
+      internalID: -7151382924351568169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 54
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9019ef6d8dc643990800000000000000
+      internalID: -7407175808541880055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_23
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 63
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a4e2b7207f59ed0800000000000000
+      internalID: -2407746835731035500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_24
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 68
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b53b3f1eb3db450800000000000000
+      internalID: 6106102511426558826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_25
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 61
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ea8c53201c7cc50800000000000000
+      internalID: 6685524387091230338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_26
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 54
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0300f55c6ff55fff0800000000000000
+      internalID: -2990711265886160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_27
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 51
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d17f659c6b56e00800000000000000
+      internalID: 1037436265042484481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_28
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 56
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a32f0f018297b60800000000000000
+      internalID: 7744265087467272735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_29
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 57
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a02ef6ef30f5d820800000000000000
+      internalID: 2942522088805507238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 60
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6975185382024b60800000000000000
+      internalID: 7728742673662966122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_31
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 54
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86666c78e0a2c530800000000000000
+      internalID: 3873835549871990411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 50
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22064acb69c069e0800000000000000
+      internalID: -1630081600315850195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 60
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860c151fb25135460800000000000000
+      internalID: 7229145105336221800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_34
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 58
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a78fb3498098eb0800000000000000
+      internalID: -4717229701939561931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 51
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbc8e2c0b49691e0800000000000000
+      internalID: -2191400681763976266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_36
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38923d67e833920a0800000000000000
+      internalID: -6905931866624022141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 55
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a7157cd43e5cc80800000000000000
+      internalID: -8302980414791648625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_38
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 56
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc432d49c65a0c80800000000000000
+      internalID: -8355770736049959744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_39
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580c6dcb340887e90800000000000000
+      internalID: -7027726190092304251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_40
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 59
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9492dba20771efed0800000000000000
+      internalID: -2378437782684227255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_41
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 54
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c67d5765fcbf570800000000000000
+      internalID: 8501616691843132420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_42
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 53
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2d0bc2f039fb8c0800000000000000
+      internalID: -3981301852188650830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_43
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 58
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ce17a5c01018620800000000000000
+      internalID: 2774499998005586975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_44
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 54
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e77bbaa440d89d0800000000000000
+      internalID: -2770553477007966640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 52
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b218ab8ebfaab1660800000000000000
+      internalID: 7357662415157887275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_46
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 53
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994db0671ed8c60a0800000000000000
+      internalID: -6886973730668686183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_47
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 55
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938a35a9ff7e06940800000000000000
+      internalID: 5287481047524812857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_48
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 46
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385d895e41fda8fb0800000000000000
+      internalID: -4644654784834906749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_49
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 53
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2acf5f94aa7d7b0800000000000000
+      internalID: -5199500010139639111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73693c342c70d2c10800000000000000
+      internalID: 2030287537955903031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_51
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 46
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfece7ca7ccbc120800000000000000
+      internalID: 2435264851236155337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_52
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80be0a765c2e2c840800000000000000
+      internalID: 5243002253687712520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_53
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8950d5ec4d955d0800000000000000
+      internalID: -3073191287914653493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_54
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a71163a9416fc3e0800000000000000
+      internalID: -2031297938019248223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 52
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69656d4c2a026c280800000000000000
+      internalID: -9023488919931038058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_56
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1824247d8d763ff0800000000000000
+      internalID: -56719898803165154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_57
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 40
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41f00bd9d3cbffc0800000000000000
+      internalID: -3459956548254502580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_58
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c892c51f46a27c0800000000000000
+      internalID: -4095349923343922175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_59
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 46
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4577f70b53d856a10800000000000000
+      internalID: 1902081679367829332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_60
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d605c9d8cb73bf0800000000000000
+      internalID: -344599530071626457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_61
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 36
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b26f9f196019bc30800000000000000
+      internalID: 4375546556655297206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_62
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 37
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73fb1055e6c88560800000000000000
+      internalID: 7316316282857190270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_63
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 45
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ea99e436650c7f0800000000000000
+      internalID: -594380166292460001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_64
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4a2992d92302b70800000000000000
+      internalID: 8872146916508607692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_65
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 36
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198ec0fcdde82a8a0800000000000000
+      internalID: -6295312245797885807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_66
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 36
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bdd8ecd150dce90800000000000000
+      internalID: -7003936219913659508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_67
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 32
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b40b656981e90c0800000000000000
+      internalID: -4567185938128549009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_68
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 27
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17afedf311d99a30800000000000000
+      internalID: 4222636009431475998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_69
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3c22b1816f4e020800000000000000
+      internalID: 2370289887298634667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_70
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3430db01eceef5470800000000000000
+      internalID: 8385683599998649155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_71
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 25
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd5b4a298848e230800000000000000
+      internalID: 3668261650450570739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_72
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 17
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b886c196aef620800000000000000
+      internalID: 2809866362557084585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_73
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517d185b47c5e6440800000000000000
+      internalID: 4930980298348418837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_74
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 21
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1142203694e0870800000000000000
+      internalID: 8650932623811809702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: era_ice_age_75
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 6
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbf07d1b3cbc7bd0800000000000000
+      internalID: -2631021120208176182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      era_ice_age_0: -8766416019610960412
+      era_ice_age_1: -1052342252629185678
+      era_ice_age_10: -482629957396321801
+      era_ice_age_11: 5497305204076710054
+      era_ice_age_12: 4364377541996174275
+      era_ice_age_13: 3228680287085192175
+      era_ice_age_14: 5730530150169266580
+      era_ice_age_15: -1133074934982573279
+      era_ice_age_16: -2816889702151466880
+      era_ice_age_17: -3741641521140735743
+      era_ice_age_18: 7325408915243355295
+      era_ice_age_19: 5195203311082422766
+      era_ice_age_2: 2388809401846148441
+      era_ice_age_20: -1677710679919177377
+      era_ice_age_21: -7151382924351568169
+      era_ice_age_22: -7407175808541880055
+      era_ice_age_23: -2407746835731035500
+      era_ice_age_24: 6106102511426558826
+      era_ice_age_25: 6685524387091230338
+      era_ice_age_26: -2990711265886160
+      era_ice_age_27: 1037436265042484481
+      era_ice_age_28: 7744265087467272735
+      era_ice_age_29: 2942522088805507238
+      era_ice_age_3: -5586766660098861537
+      era_ice_age_30: 7728742673662966122
+      era_ice_age_31: 3873835549871990411
+      era_ice_age_32: -1630081600315850195
+      era_ice_age_33: 7229145105336221800
+      era_ice_age_34: -4717229701939561931
+      era_ice_age_35: -2191400681763976266
+      era_ice_age_36: -6905931866624022141
+      era_ice_age_37: -8302980414791648625
+      era_ice_age_38: -8355770736049959744
+      era_ice_age_39: -7027726190092304251
+      era_ice_age_4: -2224612832417423505
+      era_ice_age_40: -2378437782684227255
+      era_ice_age_41: 8501616691843132420
+      era_ice_age_42: -3981301852188650830
+      era_ice_age_43: 2774499998005586975
+      era_ice_age_44: -2770553477007966640
+      era_ice_age_45: 7357662415157887275
+      era_ice_age_46: -6886973730668686183
+      era_ice_age_47: 5287481047524812857
+      era_ice_age_48: -4644654784834906749
+      era_ice_age_49: -5199500010139639111
+      era_ice_age_5: -6242185797715625176
+      era_ice_age_50: 2030287537955903031
+      era_ice_age_51: 2435264851236155337
+      era_ice_age_52: 5243002253687712520
+      era_ice_age_53: -3073191287914653493
+      era_ice_age_54: -2031297938019248223
+      era_ice_age_55: -9023488919931038058
+      era_ice_age_56: -56719898803165154
+      era_ice_age_57: -3459956548254502580
+      era_ice_age_58: -4095349923343922175
+      era_ice_age_59: 1902081679367829332
+      era_ice_age_6: 1998524540789775337
+      era_ice_age_60: -344599530071626457
+      era_ice_age_61: 4375546556655297206
+      era_ice_age_62: 7316316282857190270
+      era_ice_age_63: -594380166292460001
+      era_ice_age_64: 8872146916508607692
+      era_ice_age_65: -6295312245797885807
+      era_ice_age_66: -7003936219913659508
+      era_ice_age_67: -4567185938128549009
+      era_ice_age_68: 4222636009431475998
+      era_ice_age_69: 2370289887298634667
+      era_ice_age_7: -16854408127659869
+      era_ice_age_70: 8385683599998649155
+      era_ice_age_71: 3668261650450570739
+      era_ice_age_72: 2809866362557084585
+      era_ice_age_73: 4930980298348418837
+      era_ice_age_74: 8650932623811809702
+      era_ice_age_75: -2631021120208176182
+      era_ice_age_8: -8326475249223161570
+      era_ice_age_9: 8084318337892287433
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

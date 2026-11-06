@@ -1,0 +1,1744 @@
+fileFormatVersion: 2
+guid: a6147395000b0154fbc157c62d41c31b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1269989456337997053
+    second: land_winter_0
+  - first:
+      213: -1403953804194532817
+    second: land_winter_1
+  - first:
+      213: -1176191004975044488
+    second: land_winter_2
+  - first:
+      213: -6895970597867133757
+    second: land_winter_3
+  - first:
+      213: 8706107480353547902
+    second: land_winter_4
+  - first:
+      213: -5559189934273034783
+    second: land_winter_5
+  - first:
+      213: -4416845105375437051
+    second: land_winter_6
+  - first:
+      213: 6157684184795531495
+    second: land_winter_7
+  - first:
+      213: 4890623316714147410
+    second: land_winter_8
+  - first:
+      213: -7463286893207109923
+    second: land_winter_9
+  - first:
+      213: 3568461308635419472
+    second: land_winter_10
+  - first:
+      213: 8680065356715203568
+    second: land_winter_11
+  - first:
+      213: -4124639699861357212
+    second: land_winter_12
+  - first:
+      213: -3845891769241489683
+    second: land_winter_13
+  - first:
+      213: -3881008555807459500
+    second: land_winter_14
+  - first:
+      213: -5407501776767723355
+    second: land_winter_15
+  - first:
+      213: 5637521161835014691
+    second: land_winter_16
+  - first:
+      213: 5381183228033999857
+    second: land_winter_17
+  - first:
+      213: 652570741038893069
+    second: land_winter_18
+  - first:
+      213: 8580385725343932244
+    second: land_winter_19
+  - first:
+      213: 1359495063385126655
+    second: land_winter_20
+  - first:
+      213: -898652773194922566
+    second: land_winter_21
+  - first:
+      213: -606920545277538296
+    second: land_winter_22
+  - first:
+      213: 6059644400922589049
+    second: land_winter_23
+  - first:
+      213: -3968991444110289072
+    second: land_winter_24
+  - first:
+      213: -3583806045974054146
+    second: land_winter_25
+  - first:
+      213: 2207827527245062310
+    second: land_winter_26
+  - first:
+      213: -5681341721767855445
+    second: land_winter_27
+  - first:
+      213: 5215179117515019570
+    second: land_winter_28
+  - first:
+      213: 9178587261346270891
+    second: land_winter_29
+  - first:
+      213: -7316044963718669410
+    second: land_winter_30
+  - first:
+      213: 4170179156864092523
+    second: land_winter_31
+  - first:
+      213: 8494084146757538032
+    second: land_winter_32
+  - first:
+      213: 2247178119739181514
+    second: land_winter_33
+  - first:
+      213: -8036084107634555593
+    second: land_winter_34
+  - first:
+      213: 6924762454865841026
+    second: land_winter_35
+  - first:
+      213: 6828908417153556870
+    second: land_winter_36
+  - first:
+      213: -1692369863457242163
+    second: land_winter_37
+  - first:
+      213: 2325848507916447309
+    second: land_winter_38
+  - first:
+      213: 708691689365622958
+    second: land_winter_39
+  - first:
+      213: 6675864402209878744
+    second: land_winter_40
+  - first:
+      213: -7110392035155793750
+    second: land_winter_41
+  - first:
+      213: 4691442622280979787
+    second: land_winter_42
+  - first:
+      213: 7003954859908953939
+    second: land_winter_43
+  - first:
+      213: 4163138418989664444
+    second: land_winter_44
+  - first:
+      213: 3895265851985521533
+    second: land_winter_45
+  - first:
+      213: 763165248697559010
+    second: land_winter_46
+  - first:
+      213: -50189750067407628
+    second: land_winter_47
+  - first:
+      213: 8231230862971386511
+    second: land_winter_48
+  - first:
+      213: -3171823490097210600
+    second: land_winter_49
+  - first:
+      213: -5982957204216551937
+    second: land_winter_50
+  - first:
+      213: 4211159680904323822
+    second: land_winter_51
+  - first:
+      213: 3111284122049146358
+    second: land_winter_52
+  - first:
+      213: 2318302591094531073
+    second: land_winter_53
+  - first:
+      213: 2322705690220093692
+    second: land_winter_54
+  - first:
+      213: 8214662773044373235
+    second: land_winter_55
+  - first:
+      213: -1688325414925236097
+    second: land_winter_56
+  - first:
+      213: -1086441094432047187
+    second: land_winter_57
+  - first:
+      213: 5018617382448989502
+    second: land_winter_58
+  - first:
+      213: -3022509276666217872
+    second: land_winter_59
+  - first:
+      213: 6111974553248504105
+    second: land_winter_60
+  - first:
+      213: -7950052614949955306
+    second: land_winter_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: land_winter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 403
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3037b727157106ee0800000000000000
+      internalID: -1269989456337997053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 805
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f223deb1477248ce0800000000000000
+      internalID: -1403953804194532817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 798
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e37043845dafe0800000000000000
+      internalID: -1176191004975044488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 808
+        width: 131
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4679417479c40a0800000000000000
+      internalID: -6895970597867133757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_4
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 924
+        width: 193
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7628de50ae42d870800000000000000
+      internalID: 8706107480353547902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 790
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58ab8653ac9d2b0800000000000000
+      internalID: -5559189934273034783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 839
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f9c2237c634b2c0800000000000000
+      internalID: -4416845105375437051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 808
+        width: 102
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e847c9242d747550800000000000000
+      internalID: 6157684184795531495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_8
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 791
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e4df2befbfed340800000000000000
+      internalID: 4890623316714147410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_9
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 787
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddebf81ec141d6890800000000000000
+      internalID: -7463286893207109923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_10
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 829
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05390f757a8b58130800000000000000
+      internalID: 3568461308635419472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_11
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 773
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb1f26f379c57870800000000000000
+      internalID: 8680065356715203568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_12
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 936
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d3a47db0652c6c0800000000000000
+      internalID: -4124639699861357212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_13
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 936
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee23c1ffc5a0aac0800000000000000
+      internalID: -3845891769241489683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_14
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 931
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45738dce743e32ac0800000000000000
+      internalID: -3881008555807459500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_15
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 609
+        width: 228
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a85771c8c1b4f4b0800000000000000
+      internalID: -5407501776767723355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 685
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a6ce8b0af7c3e40800000000000000
+      internalID: 5637521161835014691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 728
+        height: 790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3a14a92adcdaa40800000000000000
+      internalID: 5381183228033999857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_18
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 775
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08cf6aa1a56e0900800000000000000
+      internalID: 652570741038893069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_19
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 772
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f15fa3b57a31770800000000000000
+      internalID: 8580385725343932244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_20
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 773
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6b7f6ae85edd210800000000000000
+      internalID: 1359495063385126655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 649
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab50c4560185783f0800000000000000
+      internalID: -898652773194922566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_22
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 682
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80098dbcaf8c397f0800000000000000
+      internalID: -606920545277538296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 77
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977fc2e2a7e281450800000000000000
+      internalID: 6059644400922589049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 603
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057dd396f4f4be8c0800000000000000
+      internalID: -3968991444110289072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_25
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 555
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efab1d59363c34ec0800000000000000
+      internalID: -3583806045974054146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 572
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a065ce3077c3ae10800000000000000
+      internalID: 2207827527245062310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_27
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 33
+        width: 153
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baabb6a1ec1d721b0800000000000000
+      internalID: -5681341721767855445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_28
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 552
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2359483b6c9006840800000000000000
+      internalID: 5215179117515019570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_29
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 556
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae4874eb74e06f70800000000000000
+      internalID: 9178587261346270891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b53c81edf287a90800000000000000
+      internalID: -7316044963718669410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_31
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 332
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b694f9e39d37fd930800000000000000
+      internalID: 4170179156864092523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_32
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 314
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f092c3278c01e570800000000000000
+      internalID: 8494084146757538032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_33
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 282
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9851608949f2f10800000000000000
+      internalID: 2247178119739181514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735c743c4181a7090800000000000000
+      internalID: -8036084107634555593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_35
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 240
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b8d3483c2b91060800000000000000
+      internalID: 6924762454865841026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_36
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 242
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681ec18360825ce50800000000000000
+      internalID: 6828908417153556870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc30e04639e7388e0800000000000000
+      internalID: -1692369863457242163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 131
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e6bb325e2174020800000000000000
+      internalID: 2325848507916447309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_39
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0d8ef2657c5d900800000000000000
+      internalID: 708691689365622958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_40
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 208
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d23566bd4f65ac50800000000000000
+      internalID: 6675864402209878744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_41
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 202
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8a5c2dd10d25d90800000000000000
+      internalID: -7110392035155793750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_42
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 189
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b455f29653a5b1140800000000000000
+      internalID: 4691442622280979787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 168
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3577eb726db033160800000000000000
+      internalID: 7003954859908953939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_44
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 168
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb809a6b55076c930800000000000000
+      internalID: 4163138418989664444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_45
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b6e4587a3ce0630800000000000000
+      internalID: 3895265851985521533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_46
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 136
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e76a8110ce479a00800000000000000
+      internalID: 763165248697559010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_47
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 114
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4dddf20b0bd4ff0800000000000000
+      internalID: -50189750067407628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_48
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 139
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a34a3ebd43b3270800000000000000
+      internalID: 8231230862971386511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_49
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 124
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b148e375b6bf3d0800000000000000
+      internalID: -3171823490097210600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_50
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 136
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5ee403f1448fca0800000000000000
+      internalID: -5982957204216551937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_51
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 132
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2efb80b6b017a30800000000000000
+      internalID: 4211159680904323822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_52
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 127
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd6d0abc608d2b20800000000000000
+      internalID: 3111284122049146358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_53
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 124
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104ae087ce34c2020800000000000000
+      internalID: 2318302591094531073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_54
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0e85fd488eb3020800000000000000
+      internalID: 2322705690220093692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_55
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 104
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f66fe8d448500270800000000000000
+      internalID: 8214662773044373235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_56
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 103
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f780e12fafcd198e0800000000000000
+      internalID: -1688325414925236097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_57
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 79
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafbdf0b49f2ce0f0800000000000000
+      internalID: -1086441094432047187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_58
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 74
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3509786be5b5a540800000000000000
+      internalID: 5018617382448989502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_59
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 51
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07abcf9a3d3ed06d0800000000000000
+      internalID: -3022509276666217872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_60
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 30
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9299a9a397812d450800000000000000
+      internalID: 6111974553248504105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: land_winter_61
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6191e34944dbba190800000000000000
+      internalID: -7950052614949955306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      land_winter_0: -1269989456337997053
+      land_winter_1: -1403953804194532817
+      land_winter_10: 3568461308635419472
+      land_winter_11: 8680065356715203568
+      land_winter_12: -4124639699861357212
+      land_winter_13: -3845891769241489683
+      land_winter_14: -3881008555807459500
+      land_winter_15: -5407501776767723355
+      land_winter_16: 5637521161835014691
+      land_winter_17: 5381183228033999857
+      land_winter_18: 652570741038893069
+      land_winter_19: 8580385725343932244
+      land_winter_2: -1176191004975044488
+      land_winter_20: 1359495063385126655
+      land_winter_21: -898652773194922566
+      land_winter_22: -606920545277538296
+      land_winter_23: 6059644400922589049
+      land_winter_24: -3968991444110289072
+      land_winter_25: -3583806045974054146
+      land_winter_26: 2207827527245062310
+      land_winter_27: -5681341721767855445
+      land_winter_28: 5215179117515019570
+      land_winter_29: 9178587261346270891
+      land_winter_3: -6895970597867133757
+      land_winter_30: -7316044963718669410
+      land_winter_31: 4170179156864092523
+      land_winter_32: 8494084146757538032
+      land_winter_33: 2247178119739181514
+      land_winter_34: -8036084107634555593
+      land_winter_35: 6924762454865841026
+      land_winter_36: 6828908417153556870
+      land_winter_37: -1692369863457242163
+      land_winter_38: 2325848507916447309
+      land_winter_39: 708691689365622958
+      land_winter_4: 8706107480353547902
+      land_winter_40: 6675864402209878744
+      land_winter_41: -7110392035155793750
+      land_winter_42: 4691442622280979787
+      land_winter_43: 7003954859908953939
+      land_winter_44: 4163138418989664444
+      land_winter_45: 3895265851985521533
+      land_winter_46: 763165248697559010
+      land_winter_47: -50189750067407628
+      land_winter_48: 8231230862971386511
+      land_winter_49: -3171823490097210600
+      land_winter_5: -5559189934273034783
+      land_winter_50: -5982957204216551937
+      land_winter_51: 4211159680904323822
+      land_winter_52: 3111284122049146358
+      land_winter_53: 2318302591094531073
+      land_winter_54: 2322705690220093692
+      land_winter_55: 8214662773044373235
+      land_winter_56: -1688325414925236097
+      land_winter_57: -1086441094432047187
+      land_winter_58: 5018617382448989502
+      land_winter_59: -3022509276666217872
+      land_winter_6: -4416845105375437051
+      land_winter_60: 6111974553248504105
+      land_winter_61: -7950052614949955306
+      land_winter_7: 6157684184795531495
+      land_winter_8: 4890623316714147410
+      land_winter_9: -7463286893207109923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
