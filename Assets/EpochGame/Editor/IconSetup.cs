@@ -10,7 +10,7 @@ namespace EpochGame.EditorTools
     [InitializeOnLoad]
     public static class IconSetup
     {
-        private const string SetupKey = "EpochGame.IconSetup.v4";
+        private const string SetupKey = "EpochGame.IconSetup.v5";
         private const string IconFolder = "Assets/EpochGame/Art/Icons/";
         private const string BackgroundPath = "Assets/EpochGame/Art/Backgrounds/ice_age.jpg";
         private const string EraBannerPath = "Assets/EpochGame/Art/UI/era_ice_age.png";
@@ -152,36 +152,61 @@ namespace EpochGame.EditorTools
             portraitImage.color = Color.white;
             portraitImage.preserveAspect = true;
             portraitImage.type = Image.Type.Simple;
-            PlaceTopLeft(portrait.GetComponent<RectTransform>(), 16f, 18f, 188f, 188f);
+            var left = EnsureColumn(header.transform, "HeaderLeft", 0f, 0.60f);
+            var center = EnsureColumn(header.transform, "HeaderCenter", 0.60f, 0.81f);
+            var right = EnsureColumn(header.transform, "HeaderRight", 0.81f, 1f);
 
-            var banner = PlaceIcon(header.transform, "EraBanner", eraBanner);
-            PlaceTopLeft(banner.rectTransform, 214f, 14f, 440f, 146f);
-            banner.transform.SetSiblingIndex(era.transform.GetSiblingIndex());
+            const float edge = 16f;
+            const float portraitSize = 172f;
+            const float avatarGap = 16f;
+            const float statusX = edge + portraitSize + avatarGap;
 
-            PlaceTopStretch(era.GetComponent<RectTransform>(), 284f, 48f, 64f, 496f);
+            Adopt(left, portrait.transform);
+            PlaceTopLeft(portrait.GetComponent<RectTransform>(), edge, 20f, portraitSize, portraitSize);
+
+            Adopt(left, "EraBanner");
+            var banner = PlaceIcon(left, "EraBanner", eraBanner);
+            PlaceTopLeft(banner.rectTransform, statusX, 12f, 400f, 134f);
+            Adopt(left, era.transform);
+            PlaceTopLeft(era.GetComponent<RectTransform>(), statusX + 52f, 42f, 296f, 58f);
             StyleEraText(eraLabel, 28f);
+            if (banner.transform.GetSiblingIndex() > era.transform.GetSiblingIndex())
+            {
+                banner.transform.SetSiblingIndex(era.transform.GetSiblingIndex());
+            }
 
-            var peopleIcon = PlaceIcon(header.transform, "PopulationIcon", people);
-            PlaceIconTop(peopleIcon.rectTransform, 214f, 170f, 50f);
-            PlaceTopStretch(population.GetComponent<RectTransform>(), 274f, 168f, 50f, 24f);
+            Adopt(left, "PopulationIcon");
+            var peopleIcon = PlaceIcon(left, "PopulationIcon", people);
+            PlaceIconTop(peopleIcon.rectTransform, statusX, 158f, 48f);
+            Adopt(left, population.transform);
+            PlaceTopLeft(population.GetComponent<RectTransform>(), statusX + 58f, 156f, 330f, 50f);
             StyleHeaderText(population.GetComponent<TMP_Text>(), 32f, FontStyles.Normal);
 
-            var landIcon = PlaceIcon(header.transform, "TerritoryIcon", land);
-            PlaceIconTop(landIcon.rectTransform, 214f, 226f, 50f);
-            PlaceTopStretch(territory.GetComponent<RectTransform>(), 274f, 224f, 50f, 24f);
+            Adopt(left, "TerritoryIcon");
+            var landIcon = PlaceIcon(left, "TerritoryIcon", land);
+            PlaceIconTop(landIcon.rectTransform, statusX, 214f, 48f);
+            Adopt(left, territory.transform);
+            PlaceTopLeft(territory.GetComponent<RectTransform>(), statusX + 58f, 212f, 330f, 50f);
             StyleHeaderText(territory.GetComponent<TMP_Text>(), 32f, FontStyles.Normal);
 
             var font = eraLabel.font;
-            var gloryCaption = CreateLabel(header.transform, "GloryCaption", font, "Слава", 26f, FontStyles.Normal, TextAlignmentOptions.MidlineRight);
-            PlaceTopRight(gloryCaption.rectTransform, 296f, 18f, 130f, 52f);
-            var gloryValue = CreateLabel(header.transform, "GloryValue", font, "10", 34f, FontStyles.Bold, TextAlignmentOptions.MidlineLeft);
-            PlaceTopRight(gloryValue.rectTransform, 188f, 18f, 100f, 52f);
+            Adopt(center, "GloryCaption");
+            var gloryCaption = CreateLabel(center, "GloryCaption", font, "Слава", 26f, FontStyles.Normal, TextAlignmentOptions.MidlineLeft);
+            PlaceTopLeft(gloryCaption.rectTransform, 12f, 18f, 118f, 52f);
+            Adopt(center, "GloryValue");
+            var gloryValue = CreateLabel(center, "GloryValue", font, "10", 34f, FontStyles.Bold, TextAlignmentOptions.MidlineLeft);
+            PlaceTopLeft(gloryValue.rectTransform, 134f, 16f, 80f, 54f);
 
-            var crownCaption = CreateLabel(header.transform, "CrownCaption", font, "Короны", 26f, FontStyles.Normal, TextAlignmentOptions.MidlineRight);
-            PlaceTopRight(crownCaption.rectTransform, 296f, 90f, 130f, 52f);
-            var crownValue = CreateLabel(header.transform, "CrownValue", font, "500", 34f, FontStyles.Bold, TextAlignmentOptions.MidlineLeft);
-            PlaceTopRight(crownValue.rectTransform, 188f, 90f, 100f, 52f);
-            CreateResourcesButton(header.transform, font);
+            Adopt(center, "CrownCaption");
+            var crownCaption = CreateLabel(center, "CrownCaption", font, "Короны", 26f, FontStyles.Normal, TextAlignmentOptions.MidlineLeft);
+            PlaceTopLeft(crownCaption.rectTransform, 12f, 78f, 118f, 52f);
+            Adopt(center, "CrownValue");
+            var crownValue = CreateLabel(center, "CrownValue", font, "500", 34f, FontStyles.Bold, TextAlignmentOptions.MidlineLeft);
+            PlaceTopLeft(crownValue.rectTransform, 134f, 76f, 80f, 54f);
+
+            Adopt(right, "ResourcesButton");
+            var resourcesButton = CreateResourcesButton(right, font);
+            PlaceTopLeft(resourcesButton.GetComponent<RectTransform>(), 8f, 16f, 168f, 64f);
 
             var view = header.GetComponent<ScreenHeaderView>();
             if (view == null)
@@ -370,24 +395,6 @@ namespace EpochGame.EditorTools
             rect.sizeDelta = new Vector2(width, height);
         }
 
-        private static void PlaceTopRight(RectTransform rect, float right, float top, float width, float height)
-        {
-            rect.anchorMin = new Vector2(1f, 1f);
-            rect.anchorMax = new Vector2(1f, 1f);
-            rect.pivot = new Vector2(1f, 1f);
-            rect.anchoredPosition = new Vector2(-right, -top);
-            rect.sizeDelta = new Vector2(width, height);
-        }
-
-        private static void PlaceTopStretch(RectTransform rect, float left, float top, float height, float right)
-        {
-            rect.anchorMin = new Vector2(0f, 1f);
-            rect.anchorMax = new Vector2(1f, 1f);
-            rect.pivot = new Vector2(0.5f, 1f);
-            rect.offsetMin = new Vector2(left, -(top + height));
-            rect.offsetMax = new Vector2(-right, -top);
-        }
-
         private static void PlaceIconTop(RectTransform rect, float left, float top, float size)
         {
             rect.anchorMin = new Vector2(0f, 1f);
@@ -491,8 +498,47 @@ namespace EpochGame.EditorTools
             labelRect.anchorMax = Vector2.one;
             labelRect.offsetMin = Vector2.zero;
             labelRect.offsetMax = Vector2.zero;
-            PlaceTopRight(buttonObject.GetComponent<RectTransform>(), 12f, 84f, 168f, 64f);
             return button;
+        }
+
+        private static Transform EnsureColumn(Transform header, string name, float minX, float maxX)
+        {
+            var existing = header.Find(name);
+            var column = existing != null ? existing.gameObject : new GameObject(name, typeof(RectTransform));
+            if (existing == null)
+            {
+                column.transform.SetParent(header, false);
+            }
+
+            column.transform.localScale = Vector3.one;
+            column.transform.localRotation = Quaternion.identity;
+            var rect = column.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(minX, 0f);
+            rect.anchorMax = new Vector2(maxX, 1f);
+            rect.pivot = new Vector2(0f, 1f);
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+            return column.transform;
+        }
+
+        private static void Adopt(Transform parent, string name)
+        {
+            var found = FindSceneObject(name);
+            if (found != null)
+            {
+                Adopt(parent, found.transform);
+            }
+        }
+
+        private static void Adopt(Transform parent, Transform child)
+        {
+            if (child.parent != parent)
+            {
+                child.SetParent(parent, false);
+            }
+
+            child.localScale = Vector3.one;
+            child.localRotation = Quaternion.identity;
         }
 
         private static GameObject FindOrCreate(Transform parent, string name)
