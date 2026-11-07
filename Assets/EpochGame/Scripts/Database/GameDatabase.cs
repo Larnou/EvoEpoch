@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using EpochGame.Era;
 using EpochGame.Gathering;
+using EpochGame.Progress;
 using EpochGame.Technology;
 using UnityEngine;
 
@@ -12,12 +13,15 @@ namespace EpochGame.Database
         [SerializeField] private EraDefinition[] _eras;
         [SerializeField] private TechnologyDefinition[] _technologies;
         [SerializeField] private ManualResourceNodeDefinition[] _manualNodes;
+        [SerializeField] private PlayerLevelRequirement[] _playerLevels;
 
         private Dictionary<string, EraDefinition> _erasById;
         private Dictionary<string, TechnologyDefinition> _technologiesById;
         private Dictionary<string, ManualResourceNodeDefinition> _nodesById;
 
         public IReadOnlyList<TechnologyDefinition> Technologies => _technologies;
+
+        public IReadOnlyList<PlayerLevelRequirement> PlayerLevels => _playerLevels;
 
         public void BuildIndex()
         {

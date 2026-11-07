@@ -18,5 +18,21 @@ namespace EpochGame.Population
         }
 
         public long Area => _area;
+
+        public void Add(long amount)
+        {
+            if (amount > 0)
+            {
+                _area = amount > long.MaxValue - _area
+                    ? long.MaxValue
+                    : _area + amount;
+                return;
+            }
+
+            if (amount < 0)
+            {
+                _area = _area < -amount ? 0 : _area + amount;
+            }
+        }
     }
 }

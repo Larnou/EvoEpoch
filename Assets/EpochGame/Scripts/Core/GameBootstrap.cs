@@ -15,15 +15,18 @@ namespace EpochGame.Core
         [SerializeField] private GameDatabase _database;
         [SerializeField] private ResourceBarView _resourceBar;
         [SerializeField] private ScreenHeaderView _header;
+        [SerializeField] private ProgressDebugView _progressDebug;
         [SerializeField] private TechnologyPanelView _technologyPanel;
         [SerializeField] private ManualResourceNodeView[] _nodes;
 
         private readonly List<ResourceAmountState> _amounts = new List<ResourceAmountState>();
         private readonly PopulationState _population = new PopulationState(3);
         private readonly TerritoryState _territory = new TerritoryState(1);
+        private readonly PlayerLevelState _level = new PlayerLevelState(1);
         private readonly GloryState _glory = new GloryState(10);
         private readonly CurrencyState _currency = new CurrencyState(500);
         private ResourceWallet _wallet;
+        private PlayerLevelService _levels;
 
         private void Awake()
         {
@@ -47,16 +50,15 @@ namespace EpochGame.Core
                 _resourceBar.Initialize(_wallet);
             }
 
-            if (_header != null)
+            _levels = new PlayerLevelService(_database.PlayerLevels);
+            if (_progressDebug != null)
             {
-                var era = _database.StartingEra;
-                _header.Show(
-                    era != null ? era.Title : string.Empty,
-                    _population.CurrentPopulation,
-                    _territory.Area,
-                    _glory.Value,
-                    _currency.Crowns);
+                _progressDebug.Initialize();
+                _progressDebug.PopulationChanged += OnPopulationChanged;
+                _progressDebug.TerritoryChanged += OnTerritoryChanged;
             }
+
+            RefreshHeader();
 
             if (_technologyPanel != null)
             {
@@ -76,6 +78,44 @@ namespace EpochGame.Core
 
             technologyService.Researched += _ => RefreshUnlocks();
             RefreshUnlocks();
+        }
+
+        private void OnDestroy()
+        {
+            if (_progressDebug == null)
+            {
+                return;
+            }
+
+            _progressDebug.PopulationChanged -= OnPopulationChanged;
+            _progressDebug.TerritoryChanged -= OnTerritoryChanged;
+        }
+
+        private void OnPopulationChanged(long amount)
+        {
+            _population.Add(amount);
+            RefreshHeader();
+        }
+
+        private void OnTerritoryChanged(long amount)
+        {
+            _territory.Add(amount);
+            RefreshHeader();
+        }
+
+        private void RefreshHeader()
+        {
+            if (_header == null || _levels == null)
+            {
+                return;
+            }
+
+            var era = _database != null ? _database.StartingEra : null;
+            _header.Show(
+                era != null ? era.Title : string.Empty,
+                _levels.Evaluate(_level.Level, _population.CurrentPopulation, _territory.Area),
+                _glory.Value,
+                _currency.Crowns);
         }
 
         private void RefreshUnlocks()

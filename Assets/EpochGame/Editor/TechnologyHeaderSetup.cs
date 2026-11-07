@@ -272,8 +272,6 @@ namespace EpochGame.EditorTools
             var serialized = new SerializedObject(view);
             serialized.FindProperty("_portrait").objectReferenceValue = image;
             serialized.FindProperty("_eraLabel").objectReferenceValue = era;
-            serialized.FindProperty("_populationLabel").objectReferenceValue = population;
-            serialized.FindProperty("_territoryLabel").objectReferenceValue = territory;
             serialized.ApplyModifiedPropertiesWithoutUndo();
             return view;
         }

@@ -21,3 +21,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d8ba56a5fe735d1479b0f9f32450b8cd, type: 2}
   - {fileID: 11400000, guid: 48eecf59855047d44bdf9df583cb76b2, type: 2}
   - {fileID: 11400000, guid: aac2693ff89e3d04596bbc8bfc5ca315, type: 2}
+  _playerLevels:
+  - _level: 2
+    _population: 15
+    _territory: 10

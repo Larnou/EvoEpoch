@@ -1,3 +1,4 @@
+using EpochGame.Core;
 using EpochGame.Presentation;
 using TMPro;
 using UnityEditor;
@@ -10,10 +11,11 @@ namespace EpochGame.EditorTools
     [InitializeOnLoad]
     public static class IconSetup
     {
-        private const string SetupKey = "EpochGame.IconSetup.v5";
+        private const string SetupKey = "EpochGame.IconSetup.v7";
         private const string IconFolder = "Assets/EpochGame/Art/Icons/";
         private const string BackgroundPath = "Assets/EpochGame/Art/Backgrounds/ice_age.jpg";
         private const string EraBannerPath = "Assets/EpochGame/Art/UI/era_ice_age.png";
+        private const string GloryBannerPath = "Assets/EpochGame/Art/UI/glory_banner.png";
         private static int _attempts;
 
         static IconSetup()
@@ -64,7 +66,8 @@ namespace EpochGame.EditorTools
             var wood = LoadSprite(IconFolder + "wood.png");
             var background = LoadSprite(BackgroundPath);
             var eraBanner = LoadSprite(EraBannerPath);
-            if (land == null || people == null || player == null || technologies == null || stone == null || food == null || wood == null || background == null || eraBanner == null)
+            var gloryBanner = LoadSprite(GloryBannerPath);
+            if (land == null || people == null || player == null || technologies == null || stone == null || food == null || wood == null || background == null || eraBanner == null || gloryBanner == null)
             {
                 Debug.LogError("Icon setup could not load one of the icon sprites.");
                 return false;
@@ -81,7 +84,7 @@ namespace EpochGame.EditorTools
                 return false;
             }
 
-            if (!LayoutHeader(header, portrait, era, population, territory, player, people, land, eraBanner))
+            if (!LayoutHeader(header, portrait, era, population, territory, player, people, land, eraBanner, gloryBanner))
             {
                 return false;
             }
@@ -112,7 +115,7 @@ namespace EpochGame.EditorTools
             EditorSceneManager.MarkSceneDirty(scene);
             EditorSceneManager.SaveScene(scene);
             AssetDatabase.SaveAssets();
-            Debug.Log("Header, resource popup, and ice age technology menu are ready.");
+            Debug.Log("Header with level progress, resource popup, and ice age technology menu are ready.");
             return true;
         }
 
@@ -125,7 +128,8 @@ namespace EpochGame.EditorTools
             Sprite player,
             Sprite people,
             Sprite land,
-            Sprite eraBanner)
+            Sprite eraBanner,
+            Sprite gloryBanner)
         {
             var eraLabel = era.GetComponent<TMP_Text>();
             if (eraLabel == null || eraLabel.font == null)
@@ -163,6 +167,8 @@ namespace EpochGame.EditorTools
 
             Adopt(left, portrait.transform);
             PlaceTopLeft(portrait.GetComponent<RectTransform>(), edge, 20f, portraitSize, portraitSize);
+            var levelLabel = CreateLabel(left, "LevelLabel", eraLabel.font, "Ур. 1", 28f, FontStyles.Bold, TextAlignmentOptions.Center);
+            PlaceTopLeft(levelLabel.rectTransform, edge, 198f, portraitSize, 42f);
 
             Adopt(left, "EraBanner");
             var banner = PlaceIcon(left, "EraBanner", eraBanner);
@@ -177,32 +183,78 @@ namespace EpochGame.EditorTools
 
             Adopt(left, "PopulationIcon");
             var peopleIcon = PlaceIcon(left, "PopulationIcon", people);
-            PlaceIconTop(peopleIcon.rectTransform, statusX, 158f, 48f);
+            PlaceIconTop(peopleIcon.rectTransform, statusX, 154f, 48f);
             Adopt(left, population.transform);
-            PlaceTopLeft(population.GetComponent<RectTransform>(), statusX + 58f, 156f, 330f, 50f);
-            StyleHeaderText(population.GetComponent<TMP_Text>(), 32f, FontStyles.Normal);
+            PlaceTopLeft(population.GetComponent<RectTransform>(), statusX + 58f, 152f, 330f, 40f);
+            if (!SplitStatLabel(population.transform, "3", "человека", out var populationValue, out var populationCaption))
+            {
+                return false;
+            }
+            var populationFill = CreateProgressBar(
+                left,
+                "PopulationBar",
+                new Color(0.25f, 0.72f, 0.95f),
+                statusX + 58f,
+                194f,
+                300f,
+                18f,
+                0.2f);
 
             Adopt(left, "TerritoryIcon");
             var landIcon = PlaceIcon(left, "TerritoryIcon", land);
-            PlaceIconTop(landIcon.rectTransform, statusX, 214f, 48f);
+            PlaceIconTop(landIcon.rectTransform, statusX, 218f, 48f);
             Adopt(left, territory.transform);
-            PlaceTopLeft(territory.GetComponent<RectTransform>(), statusX + 58f, 212f, 330f, 50f);
-            StyleHeaderText(territory.GetComponent<TMP_Text>(), 32f, FontStyles.Normal);
+            PlaceTopLeft(territory.GetComponent<RectTransform>(), statusX + 58f, 216f, 330f, 40f);
+            if (!SplitStatLabel(territory.transform, "1", "акр", out var territoryValue, out var territoryCaption))
+            {
+                return false;
+            }
+            var territoryFill = CreateProgressBar(
+                left,
+                "TerritoryBar",
+                new Color(0.55f, 0.78f, 0.28f),
+                statusX + 58f,
+                258f,
+                300f,
+                18f,
+                0.1f);
 
             var font = eraLabel.font;
-            Adopt(center, "GloryCaption");
-            var gloryCaption = CreateLabel(center, "GloryCaption", font, "Слава", 26f, FontStyles.Normal, TextAlignmentOptions.MidlineLeft);
-            PlaceTopLeft(gloryCaption.rectTransform, 12f, 18f, 118f, 52f);
-            Adopt(center, "GloryValue");
-            var gloryValue = CreateLabel(center, "GloryValue", font, "10", 34f, FontStyles.Bold, TextAlignmentOptions.MidlineLeft);
-            PlaceTopLeft(gloryValue.rectTransform, 134f, 16f, 80f, 54f);
+            var oldGloryCaption = center.Find("GloryCaption");
+            if (oldGloryCaption != null)
+            {
+                oldGloryCaption.gameObject.SetActive(false);
+            }
+
+            const float bannerWidth = 216f;
+            var bannerHeight = gloryBanner.rect.height > 0f
+                ? bannerWidth * gloryBanner.rect.height / gloryBanner.rect.width
+                : bannerWidth * 341f / 1024f;
+            var gloryImage = PlaceIcon(center, "GloryBanner", gloryBanner);
+            PlaceTopLeft(gloryImage.rectTransform, 4f, 6f, bannerWidth, bannerHeight);
+
+            Adopt(gloryImage.transform, "GloryValue");
+            var gloryValue = CreateLabel(gloryImage.transform, "GloryValue", font, "10", 24f, FontStyles.Bold, TextAlignmentOptions.Center);
+            var gloryRect = gloryValue.rectTransform;
+            gloryRect.anchorMin = new Vector2(0.42f, 0.36f);
+            gloryRect.anchorMax = new Vector2(0.76f, 0.70f);
+            gloryRect.offsetMin = Vector2.zero;
+            gloryRect.offsetMax = Vector2.zero;
+            gloryRect.pivot = new Vector2(0.5f, 0.5f);
+            gloryValue.color = new Color(1f, 0.96f, 0.88f);
+            gloryValue.alignment = TextAlignmentOptions.Center;
+            gloryValue.enableAutoSizing = true;
+            gloryValue.fontSizeMin = 14f;
+            gloryValue.fontSizeMax = 26f;
+            gloryValue.outlineColor = new Color32(92, 18, 16, 255);
+            gloryValue.outlineWidth = 0.16f;
 
             Adopt(center, "CrownCaption");
             var crownCaption = CreateLabel(center, "CrownCaption", font, "Короны", 26f, FontStyles.Normal, TextAlignmentOptions.MidlineLeft);
-            PlaceTopLeft(crownCaption.rectTransform, 12f, 78f, 118f, 52f);
+            PlaceTopLeft(crownCaption.rectTransform, 12f, 96f, 118f, 52f);
             Adopt(center, "CrownValue");
             var crownValue = CreateLabel(center, "CrownValue", font, "500", 34f, FontStyles.Bold, TextAlignmentOptions.MidlineLeft);
-            PlaceTopLeft(crownValue.rectTransform, 134f, 76f, 80f, 54f);
+            PlaceTopLeft(crownValue.rectTransform, 134f, 94f, 80f, 54f);
 
             Adopt(right, "ResourcesButton");
             var resourcesButton = CreateResourcesButton(right, font);
@@ -216,10 +268,17 @@ namespace EpochGame.EditorTools
             }
 
             var serialized = new SerializedObject(view);
+            serialized.FindProperty("_levelLabel").objectReferenceValue = levelLabel;
+            serialized.FindProperty("_populationValue").objectReferenceValue = populationValue;
+            serialized.FindProperty("_populationCaption").objectReferenceValue = populationCaption;
+            serialized.FindProperty("_populationFill").objectReferenceValue = populationFill;
+            serialized.FindProperty("_territoryValue").objectReferenceValue = territoryValue;
+            serialized.FindProperty("_territoryCaption").objectReferenceValue = territoryCaption;
+            serialized.FindProperty("_territoryFill").objectReferenceValue = territoryFill;
             serialized.FindProperty("_gloryValue").objectReferenceValue = gloryValue;
             serialized.FindProperty("_crownValue").objectReferenceValue = crownValue;
             serialized.ApplyModifiedPropertiesWithoutUndo();
-            return true;
+            return CreateProgressDebug(header.transform.parent, eraLabel.font);
         }
 
         private static void CreateBackground(Transform canvas, Sprite sprite)
@@ -431,6 +490,107 @@ namespace EpochGame.EditorTools
             label.textWrappingMode = TextWrappingModes.Normal;
         }
 
+        public static bool SplitStatLabel(
+            Transform root,
+            string fallbackValue,
+            string fallbackCaption,
+            out TMP_Text value,
+            out TMP_Text caption)
+        {
+            value = null;
+            caption = null;
+            if (root == null)
+            {
+                return false;
+            }
+
+            var existingValue = root.Find("Value");
+            var existingCaption = root.Find("Caption");
+            if (existingValue != null && existingCaption != null)
+            {
+                value = existingValue.GetComponent<TMP_Text>();
+                caption = existingCaption.GetComponent<TMP_Text>();
+                EnsureStatRow(root);
+                return value != null && caption != null;
+            }
+
+            var source = root.GetComponent<TMP_Text>();
+            if (source == null)
+            {
+                var texts = root.GetComponentsInChildren<TMP_Text>(true);
+                if (texts.Length > 0)
+                {
+                    source = texts[0];
+                }
+            }
+
+            if (source == null || source.font == null)
+            {
+                Debug.LogError("Stat label split could not read a font from " + root.name + ".");
+                return false;
+            }
+
+            var font = source.font;
+            var size = source.fontSize;
+            var color = source.color;
+            var valueText = fallbackValue;
+            var captionText = fallbackCaption;
+            SplitStatText(source.text, ref valueText, ref captionText);
+            if (source.transform == root)
+            {
+                UnityEngine.Object.DestroyImmediate(source);
+            }
+            else
+            {
+                UnityEngine.Object.DestroyImmediate(source.gameObject);
+            }
+
+            value = CreateLabel(root, "Value", font, valueText, size, FontStyles.Normal, TextAlignmentOptions.MidlineLeft);
+            caption = CreateLabel(root, "Caption", font, captionText, size, FontStyles.Normal, TextAlignmentOptions.MidlineLeft);
+            value.color = color;
+            caption.color = color;
+            EnsureStatRow(root);
+            return true;
+        }
+
+        private static void SplitStatText(string text, ref string value, ref string caption)
+        {
+            if (string.IsNullOrWhiteSpace(text))
+            {
+                return;
+            }
+
+            var trimmed = text.Trim();
+            var space = trimmed.IndexOf(' ');
+            if (space <= 0)
+            {
+                value = trimmed;
+                return;
+            }
+
+            value = trimmed.Substring(0, space);
+            caption = trimmed.Substring(space + 1).Trim();
+        }
+
+        private static void EnsureStatRow(Transform root)
+        {
+            var layout = root.GetComponent<HorizontalLayoutGroup>();
+            if (layout == null)
+            {
+                layout = root.gameObject.AddComponent<HorizontalLayoutGroup>();
+            }
+
+            layout.spacing = 8f;
+            layout.childAlignment = TextAnchor.MiddleLeft;
+            layout.childControlWidth = true;
+            layout.childControlHeight = true;
+            layout.childForceExpandWidth = false;
+            layout.childForceExpandHeight = true;
+            layout.childScaleWidth = false;
+            layout.childScaleHeight = false;
+            layout.padding = new RectOffset(0, 0, 0, 0);
+        }
+
         private static TMP_Text CreateLabel(
             Transform parent,
             string name,
@@ -464,6 +624,142 @@ namespace EpochGame.EditorTools
             label.raycastTarget = false;
             label.textWrappingMode = TextWrappingModes.NoWrap;
             return label;
+        }
+
+        private static Image CreateProgressBar(
+            Transform parent,
+            string name,
+            Color fillColor,
+            float left,
+            float top,
+            float width,
+            float height,
+            float fill)
+        {
+            var trackObject = FindOrCreate(parent, name);
+            PlaceTopLeft(trackObject.GetComponent<RectTransform>(), left, top, width, height);
+            var track = trackObject.GetComponent<Image>();
+            if (track == null)
+            {
+                track = trackObject.AddComponent<Image>();
+            }
+
+            track.color = new Color(0.33f, 0.4f, 0.5f, 1f);
+            track.raycastTarget = false;
+            track.type = Image.Type.Simple;
+
+            var fillObject = FindOrCreate(trackObject.transform, "Fill");
+            var fillRect = fillObject.GetComponent<RectTransform>();
+            fillRect.anchorMin = Vector2.zero;
+            fillRect.anchorMax = Vector2.one;
+            fillRect.offsetMin = Vector2.zero;
+            fillRect.offsetMax = Vector2.zero;
+            fillRect.pivot = new Vector2(0f, 0.5f);
+            var image = fillObject.GetComponent<Image>();
+            if (image == null)
+            {
+                image = fillObject.AddComponent<Image>();
+            }
+
+            image.color = fillColor;
+            image.raycastTarget = false;
+            image.type = Image.Type.Simple;
+            var ratio = fill < 0f ? 0f : fill > 1f ? 1f : fill;
+            fillRect.anchorMax = new Vector2(ratio, 1f);
+            return image;
+        }
+
+        private static bool CreateProgressDebug(Transform canvas, TMP_FontAsset font)
+        {
+            var panel = FindOrCreate(canvas, "ProgressDebug");
+            PlaceTopLeft(panel.GetComponent<RectTransform>(), 16f, 308f, 360f, 136f);
+            var background = panel.GetComponent<Image>();
+            if (background == null)
+            {
+                background = panel.AddComponent<Image>();
+            }
+
+            background.color = new Color(0.07f, 0.11f, 0.18f, 0.92f);
+            background.raycastTarget = true;
+
+            var populationColor = new Color(0.2f, 0.5f, 0.72f);
+            var territoryColor = new Color(0.32f, 0.55f, 0.24f);
+            var populationDecrease = CreateDebugButton(panel.transform, "PopulationDecrease", font, "- человек", populationColor);
+            PlaceTopLeft(populationDecrease.GetComponent<RectTransform>(), 8f, 8f, 168f, 56f);
+            var populationIncrease = CreateDebugButton(panel.transform, "PopulationIncrease", font, "+ человек", populationColor);
+            PlaceTopLeft(populationIncrease.GetComponent<RectTransform>(), 184f, 8f, 168f, 56f);
+            var territoryDecrease = CreateDebugButton(panel.transform, "TerritoryDecrease", font, "- акр", territoryColor);
+            PlaceTopLeft(territoryDecrease.GetComponent<RectTransform>(), 8f, 72f, 168f, 56f);
+            var territoryIncrease = CreateDebugButton(panel.transform, "TerritoryIncrease", font, "+ акр", territoryColor);
+            PlaceTopLeft(territoryIncrease.GetComponent<RectTransform>(), 184f, 72f, 168f, 56f);
+
+            var view = panel.GetComponent<ProgressDebugView>();
+            if (view == null)
+            {
+                view = panel.AddComponent<ProgressDebugView>();
+            }
+
+            var serialized = new SerializedObject(view);
+            serialized.FindProperty("_populationDecrease").objectReferenceValue = populationDecrease;
+            serialized.FindProperty("_populationIncrease").objectReferenceValue = populationIncrease;
+            serialized.FindProperty("_territoryDecrease").objectReferenceValue = territoryDecrease;
+            serialized.FindProperty("_territoryIncrease").objectReferenceValue = territoryIncrease;
+            serialized.ApplyModifiedPropertiesWithoutUndo();
+
+            var game = FindSceneObject("Game");
+            if (game == null)
+            {
+                Debug.LogError("Icon setup could not find Game.");
+                return false;
+            }
+
+            var bootstrap = game.GetComponent<GameBootstrap>();
+            if (bootstrap == null)
+            {
+                Debug.LogError("Icon setup could not find GameBootstrap.");
+                return false;
+            }
+
+            var bootstrapObject = new SerializedObject(bootstrap);
+            bootstrapObject.FindProperty("_progressDebug").objectReferenceValue = view;
+            bootstrapObject.ApplyModifiedPropertiesWithoutUndo();
+            panel.transform.SetAsLastSibling();
+            return true;
+        }
+
+        private static Button CreateDebugButton(Transform parent, string name, TMP_FontAsset font, string text, Color color)
+        {
+            var existing = parent.Find(name);
+            var buttonObject = existing != null ? existing.gameObject : new GameObject(name, typeof(RectTransform));
+            if (existing == null)
+            {
+                buttonObject.transform.SetParent(parent, false);
+            }
+
+            buttonObject.transform.localScale = Vector3.one;
+            var image = buttonObject.GetComponent<Image>();
+            if (image == null)
+            {
+                image = buttonObject.AddComponent<Image>();
+            }
+
+            image.color = color;
+            image.raycastTarget = true;
+            var button = buttonObject.GetComponent<Button>();
+            if (button == null)
+            {
+                button = buttonObject.AddComponent<Button>();
+            }
+
+            button.targetGraphic = image;
+            var label = CreateLabel(buttonObject.transform, "Label", font, text, 24f, FontStyles.Bold, TextAlignmentOptions.Center);
+            label.color = Color.white;
+            var labelRect = label.rectTransform;
+            labelRect.anchorMin = Vector2.zero;
+            labelRect.anchorMax = Vector2.one;
+            labelRect.offsetMin = Vector2.zero;
+            labelRect.offsetMax = Vector2.zero;
+            return button;
         }
 
         private static Button CreateResourcesButton(Transform parent, TMP_FontAsset font)
